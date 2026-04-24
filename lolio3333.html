@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>Реєстрація</title>
+</head>
+
+<body style="background-color: pink; color: red;">
+
+<form name="form1" action="mailto:mail@ukr.net" method="post">
+<fieldset style="width: 330px; border: 2px solid red;">
+<legend>Реєстрація</legend>
+
+<p><b>Заповніть поля форми</b></p>
+
+<p style="font-size:18px;">
+"Анкета користувача соціальної мережі"
+</p>
+
+<table>
+<tr>
+<td>Ім’я користувача:</td>
+<td><input name="name" size="20"></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input name="email" size="20"></td>
+</tr>
+
+<tr>
+<td>Пароль:</td>
+<td><input type="password" name="password" size="20"></td>
+</tr>
+
+<tr>
+<td>Тип акаунту:</td>
+<td>
+<input type="radio" name="account" value="public"> публічний<br>
+<input type="radio" name="account" value="private"> приватний
+</td>
+</tr>
+
+<tr>
+<td>Улюблена платформа:</td>
+<td>
+<select name="platform">
+<option>Instagram</option>
+<option>Facebook</option>
+<option>TikTok</option>
+<option>Twitter (X)</option>
+<option>Telegram</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Вік:</td>
+<td><input name="age" value=""></td>
+</tr>
+
+<tr>
+<td>Кількість друзів:</td>
+<td><input name="friends" value="0"></td>
+</tr>
+
+<tr>
+<td>Інтереси:</td>
+<td>
+<input type="checkbox" name="int1"> Музика<br>
+<input type="checkbox" name="int2"> Спорт<br>
+<input type="checkbox" name="int3"> Ігри<br>
+<input type="checkbox" name="int4"> Подорожі<br>
+<input type="checkbox" name="int5"> Навчання
+</td>
+</tr>
+
+<tr>
+<td>Частота користування:</td>
+<td>
+<select size="4" name="activity">
+<option>Щодня</option>
+<option>Кілька разів на тиждень</option>
+<option>Рідко</option>
+<option>Майже не користуюсь</option>
+</select>
+</td>
+</tr>
+</table>
+
+<p>
+<input type="reset" value="Очистити форму">
+<input type="submit" value="Зареєструватися">
+</p>
+
+</fieldset>
+</form>
+
+</body>
+</html>
+
+
+
